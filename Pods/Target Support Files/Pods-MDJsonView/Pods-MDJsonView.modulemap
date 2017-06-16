@@ -1,0 +1,6 @@
+framework module Pods_MDJsonView {
+  umbrella header "Pods-MDJsonView-umbrella.h"
+
+  export *
+  module * { export * }
+}

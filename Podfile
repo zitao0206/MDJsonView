@@ -3,9 +3,8 @@ use_frameworks!
 
 platform :ios, '8.0' 
 
-target 'MDProject' do
+target 'MDJsonView' do
   pod 'ReactiveCocoa', '~> 2.5.0'
-  pod 'AFNetworking'
   pod 'SDWebImage'
 end
 

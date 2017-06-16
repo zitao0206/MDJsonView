@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A68CB7A939D688605E48EFB /* Pods_MDJsonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44324383EDE1D3D749181D9 /* Pods_MDJsonView.framework */; };
 		D870BC011EF3B73900ACA832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC001EF3B73900ACA832 /* main.m */; };
 		D870BC041EF3B73900ACA832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC031EF3B73900ACA832 /* AppDelegate.m */; };
 		D870BC071EF3B73900ACA832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC061EF3B73900ACA832 /* ViewController.m */; };
 		D870BC0A1EF3B73900ACA832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D870BC081EF3B73900ACA832 /* Main.storyboard */; };
 		D870BC0C1EF3B73900ACA832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D870BC0B1EF3B73900ACA832 /* Assets.xcassets */; };
 		D870BC0F1EF3B73900ACA832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D870BC0D1EF3B73900ACA832 /* LaunchScreen.storyboard */; };
+		D870BC181EF3B8C400ACA832 /* MDJsonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC171EF3B8C400ACA832 /* MDJsonDemoViewController.m */; };
+		D870BC291EF3BA0300ACA832 /* MDJsonMappers.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC1A1EF3BA0300ACA832 /* MDJsonMappers.m */; };
+		D870BC2A1EF3BA0300ACA832 /* MDJsonModels_All.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC201EF3BA0300ACA832 /* MDJsonModels_All.m */; };
+		D870BC2B1EF3BA0300ACA832 /* MDJsonImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC241EF3BA0300ACA832 /* MDJsonImageView.m */; };
+		D870BC2C1EF3BA0300ACA832 /* MDJsonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC261EF3BA0300ACA832 /* MDJsonLabel.m */; };
+		D870BC2D1EF3BA0300ACA832 /* MDJsonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC281EF3BA0300ACA832 /* MDJsonView.m */; };
+		D870BC421EF3BB5700ACA832 /* MDErrorPicFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = D870BC411EF3BB5700ACA832 /* MDErrorPicFrame.png */; };
+		D870BC481EF3BB9200ACA832 /* UIColor+nvutils.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC451EF3BB9200ACA832 /* UIColor+nvutils.m */; };
+		D870BC491EF3BB9200ACA832 /* UIView+ResizeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D870BC471EF3BB9200ACA832 /* UIView+ResizeFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0F212ED62E80D165763ACEC /* Pods-MDJsonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDJsonView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDJsonView/Pods-MDJsonView.release.xcconfig"; sourceTree = "<group>"; };
+		A3696ECFA4C754FA06DC2BC9 /* Pods-MDJsonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDJsonView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDJsonView/Pods-MDJsonView.debug.xcconfig"; sourceTree = "<group>"; };
+		A44324383EDE1D3D749181D9 /* Pods_MDJsonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDJsonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D870BBFC1EF3B73800ACA832 /* MDJsonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDJsonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D870BC001EF3B73900ACA832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D870BC021EF3B73900ACA832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,27 @@
 		D870BC0B1EF3B73900ACA832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D870BC0E1EF3B73900ACA832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D870BC101EF3B73900ACA832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D870BC161EF3B8C400ACA832 /* MDJsonDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonDemoViewController.h; sourceTree = "<group>"; };
+		D870BC171EF3B8C400ACA832 /* MDJsonDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonDemoViewController.m; sourceTree = "<group>"; };
+		D870BC191EF3BA0300ACA832 /* MDJsonMappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonMappers.h; sourceTree = "<group>"; };
+		D870BC1A1EF3BA0300ACA832 /* MDJsonMappers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonMappers.m; sourceTree = "<group>"; };
+		D870BC1C1EF3BA0300ACA832 /* MDJsonBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonBaseModel.h; sourceTree = "<group>"; };
+		D870BC1D1EF3BA0300ACA832 /* MDJsonImageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonImageViewModel.h; sourceTree = "<group>"; };
+		D870BC1E1EF3BA0300ACA832 /* MDJsonLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonLabelModel.h; sourceTree = "<group>"; };
+		D870BC1F1EF3BA0300ACA832 /* MDJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonModel.h; sourceTree = "<group>"; };
+		D870BC201EF3BA0300ACA832 /* MDJsonModels_All.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonModels_All.m; sourceTree = "<group>"; };
+		D870BC211EF3BA0300ACA832 /* MDJsonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonViewModel.h; sourceTree = "<group>"; };
+		D870BC231EF3BA0300ACA832 /* MDJsonImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonImageView.h; sourceTree = "<group>"; };
+		D870BC241EF3BA0300ACA832 /* MDJsonImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonImageView.m; sourceTree = "<group>"; };
+		D870BC251EF3BA0300ACA832 /* MDJsonLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonLabel.h; sourceTree = "<group>"; };
+		D870BC261EF3BA0300ACA832 /* MDJsonLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonLabel.m; sourceTree = "<group>"; };
+		D870BC271EF3BA0300ACA832 /* MDJsonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDJsonView.h; sourceTree = "<group>"; };
+		D870BC281EF3BA0300ACA832 /* MDJsonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDJsonView.m; sourceTree = "<group>"; };
+		D870BC411EF3BB5700ACA832 /* MDErrorPicFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MDErrorPicFrame.png; sourceTree = "<group>"; };
+		D870BC441EF3BB9200ACA832 /* UIColor+nvutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+nvutils.h"; sourceTree = "<group>"; };
+		D870BC451EF3BB9200ACA832 /* UIColor+nvutils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+nvutils.m"; sourceTree = "<group>"; };
+		D870BC461EF3BB9200ACA832 /* UIView+ResizeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ResizeFrame.h"; sourceTree = "<group>"; };
+		D870BC471EF3BB9200ACA832 /* UIView+ResizeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ResizeFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A68CB7A939D688605E48EFB /* Pods_MDJsonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BFE9A134CBE8E8EAFA8F9A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3696ECFA4C754FA06DC2BC9 /* Pods-MDJsonView.debug.xcconfig */,
+				A0F212ED62E80D165763ACEC /* Pods-MDJsonView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D870BBF31EF3B73800ACA832 = {
 			isa = PBXGroup;
 			children = (
 				D870BBFE1EF3B73800ACA832 /* MDJsonView */,
 				D870BBFD1EF3B73800ACA832 /* Products */,
+				6BFE9A134CBE8E8EAFA8F9A6 /* Pods */,
+				FE195A22FFA1953D249F95BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,14 @@
 		D870BBFE1EF3B73800ACA832 /* MDJsonView */ = {
 			isa = PBXGroup;
 			children = (
+				D870BC431EF3BB9200ACA832 /* MDBase */,
+				D870BC401EF3BB5700ACA832 /* Resource */,
+				D870BC191EF3BA0300ACA832 /* MDJsonMappers.h */,
+				D870BC1A1EF3BA0300ACA832 /* MDJsonMappers.m */,
+				D870BC1B1EF3BA0300ACA832 /* Models */,
+				D870BC221EF3BA0300ACA832 /* Views */,
+				D870BC161EF3B8C400ACA832 /* MDJsonDemoViewController.h */,
+				D870BC171EF3B8C400ACA832 /* MDJsonDemoViewController.m */,
 				D870BC021EF3B73900ACA832 /* AppDelegate.h */,
 				D870BC031EF3B73900ACA832 /* AppDelegate.m */,
 				D870BC051EF3B73900ACA832 /* ViewController.h */,
@@ -79,6 +133,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D870BC1B1EF3BA0300ACA832 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D870BC1C1EF3BA0300ACA832 /* MDJsonBaseModel.h */,
+				D870BC1D1EF3BA0300ACA832 /* MDJsonImageViewModel.h */,
+				D870BC1E1EF3BA0300ACA832 /* MDJsonLabelModel.h */,
+				D870BC1F1EF3BA0300ACA832 /* MDJsonModel.h */,
+				D870BC201EF3BA0300ACA832 /* MDJsonModels_All.m */,
+				D870BC211EF3BA0300ACA832 /* MDJsonViewModel.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D870BC221EF3BA0300ACA832 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D870BC231EF3BA0300ACA832 /* MDJsonImageView.h */,
+				D870BC241EF3BA0300ACA832 /* MDJsonImageView.m */,
+				D870BC251EF3BA0300ACA832 /* MDJsonLabel.h */,
+				D870BC261EF3BA0300ACA832 /* MDJsonLabel.m */,
+				D870BC271EF3BA0300ACA832 /* MDJsonView.h */,
+				D870BC281EF3BA0300ACA832 /* MDJsonView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D870BC401EF3BB5700ACA832 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D870BC411EF3BB5700ACA832 /* MDErrorPicFrame.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D870BC431EF3BB9200ACA832 /* MDBase */ = {
+			isa = PBXGroup;
+			children = (
+				D870BC441EF3BB9200ACA832 /* UIColor+nvutils.h */,
+				D870BC451EF3BB9200ACA832 /* UIColor+nvutils.m */,
+				D870BC461EF3BB9200ACA832 /* UIView+ResizeFrame.h */,
+				D870BC471EF3BB9200ACA832 /* UIView+ResizeFrame.m */,
+			);
+			path = MDBase;
+			sourceTree = "<group>";
+		};
+		FE195A22FFA1953D249F95BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44324383EDE1D3D749181D9 /* Pods_MDJsonView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D870BC131EF3B73900ACA832 /* Build configuration list for PBXNativeTarget "MDJsonView" */;
 			buildPhases = (
+				32AE4D27BF4B9CDFF9DC7FC1 /* [CP] Check Pods Manifest.lock */,
 				D870BBF81EF3B73800ACA832 /* Sources */,
 				D870BBF91EF3B73800ACA832 /* Frameworks */,
 				D870BBFA1EF3B73800ACA832 /* Resources */,
+				8F2298744F10E6F0C4962AE0 /* [CP] Embed Pods Frameworks */,
+				7FA8F49BE77656874E6CBAF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D870BC421EF3BB5700ACA832 /* MDErrorPicFrame.png in Resources */,
 				D870BC0F1EF3B73900ACA832 /* LaunchScreen.storyboard in Resources */,
 				D870BC0C1EF3B73900ACA832 /* Assets.xcassets in Resources */,
 				D870BC0A1EF3B73900ACA832 /* Main.storyboard in Resources */,
@@ -146,14 +257,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32AE4D27BF4B9CDFF9DC7FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA8F49BE77656874E6CBAF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDJsonView/Pods-MDJsonView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F2298744F10E6F0C4962AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDJsonView/Pods-MDJsonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D870BBF81EF3B73800ACA832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D870BC2B1EF3BA0300ACA832 /* MDJsonImageView.m in Sources */,
+				D870BC181EF3B8C400ACA832 /* MDJsonDemoViewController.m in Sources */,
 				D870BC071EF3B73900ACA832 /* ViewController.m in Sources */,
+				D870BC491EF3BB9200ACA832 /* UIView+ResizeFrame.m in Sources */,
+				D870BC481EF3BB9200ACA832 /* UIColor+nvutils.m in Sources */,
+				D870BC2D1EF3BA0300ACA832 /* MDJsonView.m in Sources */,
+				D870BC2C1EF3BA0300ACA832 /* MDJsonLabel.m in Sources */,
+				D870BC2A1EF3BA0300ACA832 /* MDJsonModels_All.m in Sources */,
 				D870BC041EF3B73900ACA832 /* AppDelegate.m in Sources */,
 				D870BC011EF3B73900ACA832 /* main.m in Sources */,
+				D870BC291EF3BA0300ACA832 /* MDJsonMappers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +438,7 @@
 		};
 		D870BC141EF3B73900ACA832 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3696ECFA4C754FA06DC2BC9 /* Pods-MDJsonView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L8RRGM4ZYF;
@@ -283,6 +451,7 @@
 		};
 		D870BC151EF3B73900ACA832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F212ED62E80D165763ACEC /* Pods-MDJsonView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L8RRGM4ZYF;
@@ -312,6 +481,7 @@
 				D870BC151EF3B73900ACA832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
