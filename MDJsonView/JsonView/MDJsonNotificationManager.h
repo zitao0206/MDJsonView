@@ -11,6 +11,6 @@
 #import "MDJsonBaseView.h"
 
 @interface MDJsonNotificationManager : NSObject
-@property (nonatomic, copy) ResultBlock result;
+@property (nonatomic, strong) ResultBlock result;
 
 @end

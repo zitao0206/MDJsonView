@@ -17,9 +17,16 @@
 {
     _model = model;
     if (!_model) return;
+    NSString *url = @"";
+    if(_model.url.length > 0) {
+        url = _model.url;
+    }
+    if (_model.localImageName.length) {
+        url = _model.localImageName;
+    }
     if (_model.url.length > 0) {
         @weakify(self);
-        [self sd_setImageWithURL:[NSURL URLWithString:_model.url] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        [self sd_setImageWithURL:[NSURL URLWithString:url] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
             @strongify(self);
             if (image) {
                 [self setImage:image];
@@ -32,8 +39,8 @@
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"MDAsynchronousResourceData" object:nil userInfo:dic];
             }
         }];
-    } else if (_model.localImageName.length > 0) {
-        [self setImage:[UIImage imageNamed:_model.localImageName]];
+    } else if (url.length > 0) {
+        [self setImage:[UIImage imageNamed:url]];
     } else {
         [self setImage:[UIImage imageNamed:@"MDErrorPicFrame.png"]];
     }
