@@ -13,5 +13,6 @@
 @property(nonatomic, copy) NSString *url;
 /**本地图片*/
 @property(nonatomic, copy) NSString *localImageName;
-
+/**是否需要回调*/
+@property(nonatomic, assign) BOOL isNeedCallBack;
 @end

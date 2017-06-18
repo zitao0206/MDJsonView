@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MDJsonViewModel.h"
 
 @interface MDJsonView : UIView
-@property (nonatomic, copy) NSString *jsonString;
+@property (nonatomic, strong) MDJsonViewModel *model;
 
 @end

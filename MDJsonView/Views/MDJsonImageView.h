@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MDJsonImageViewModel.h"
+#import "MDJsonNotificationResultModel.h"
 
 @interface MDJsonImageView : UIImageView
 @property(nonatomic, strong) MDJsonImageViewModel *model;

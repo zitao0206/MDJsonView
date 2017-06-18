@@ -153,6 +153,8 @@
     [super setModelWithDictionary:dictionaryValue];
     self.url = [dictionaryValue objectForKey:@"url"];
     self.localImageName = [dictionaryValue objectForKey:@"localImageName"];
+    self.isNeedCallBack = [dictionaryValue objectForKey:@"isNeedCallBack"];
+    
 }
 
 

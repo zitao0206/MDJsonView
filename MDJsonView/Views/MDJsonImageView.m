@@ -18,11 +18,18 @@
     _model = model;
     if (!_model) return;
     if (_model.url.length > 0) {
+        @weakify(self);
         [self sd_setImageWithURL:[NSURL URLWithString:_model.url] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+            @strongify(self);
             if (image) {
                 [self setImage:image];
             } else {
                 [self setImage:[UIImage imageNamed:@"MDErrorPicFrame.png"]];
+            }
+            if (self.model.isNeedCallBack) {
+                MDJsonNotificationResultModel *result = [self buildImageResultWith:image Url:imageURL Error:error];
+                NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:result, @"imageView", nil];
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"MDAsynchronousResourceData" object:nil userInfo:dic];
             }
         }];
     } else if (_model.localImageName.length > 0) {
@@ -31,6 +38,16 @@
         [self setImage:[UIImage imageNamed:@"MDErrorPicFrame.png"]];
     }
     [self sizeToFit];
+}
+
+- (MDJsonNotificationResultModel *)buildImageResultWith:(UIImage *)image Url:(NSURL *)imageUrl Error:(NSError *)error
+{
+    MDJsonNotificationResultModel *model = [MDJsonNotificationResultModel new];
+    model.imageURL = imageUrl;
+    model.image = image;
+    model.error = error;
+    model.name = _model.url;
+    return model;
 }
 
 @end
