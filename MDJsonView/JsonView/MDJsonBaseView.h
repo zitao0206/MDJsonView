@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "MDJsonNotificationResultModel.h"
 
-typedef void (^ResultBlock)(MDJsonNotificationResultModel *);
+typedef void (^resultBlock)(MDJsonNotificationResultModel *);
 
 @interface MDJsonBaseView : UIView
 @property (nonatomic, copy) NSString *jsonString;
 
-- (void)obtainResult:(ResultBlock)result;
+- (void)obtainResult:(resultBlock)result;
 
 @end

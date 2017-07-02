@@ -23,9 +23,14 @@
 - (void)handleNotification:(NSNotification *)noti
 {
     id obj = noti.userInfo[@"imageView"];
-    if([obj isKindOfClass:[MDJsonNotificationResultModel class]]) {
+    if([obj isKindOfClass:[MDJsonNotificationResultModel class]] && self.result) {
         self.result(obj);
     }
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 @end

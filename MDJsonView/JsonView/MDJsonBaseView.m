@@ -32,7 +32,7 @@
     return self;
 }
 
-- (void)obtainResult:(ResultBlock)result
+- (void)obtainResult:(resultBlock)result
 {
     self.manager.result = result;
 }
