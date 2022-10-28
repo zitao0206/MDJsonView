@@ -24,7 +24,7 @@ pod 'MDJsonView'
 
 ## Author
 
-leon, 634376133@qq.com
+leon0206, 634376133@qq.com
 
 ## License
 
